@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+    while(20){
+        cout<<"Yes"<<endl;
+    }
+}
+output : Runs infinitely 
+Explanation : Because 20 is a non zero value and 
+compiler treats it as true so the statement remains 
+true and it keeps printing Yes.....!

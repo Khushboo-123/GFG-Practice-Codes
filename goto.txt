@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   begin :
+   int n;
+    cout<<"enter a number "<<endl;
+   cin>>n;
+   
+   if(n%2==0)
+   goto label1;
+   
+   else 
+   goto label2;
+    
+    label1:
+        cout<<"Even number"<<endl;
+        goto begin ;// without return 0 odd number will also get printed along with even number.....
+    
+   label2:
+       cout<<"Odd number"<<endl;
+       goto begin;
+  
+}
+Output : Depends on number user entered
+Notes : Takes you anywhere in the program 
+Goto statements are not widely used it makes the 
+program difficult to interpret If you write goto 
+statements you manager will surely be unsatisfied 
+with your code.....!

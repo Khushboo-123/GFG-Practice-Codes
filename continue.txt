@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   for(int i=0 ;i<10 ;i++){
+       int x,  y;
+    cout<<"Enter x"<<endl;
+    cin>>x;
+    cout<<"Enter y"<<endl;
+    cin>>y;
+       if(y==0){cout<<"Invalid"<<endl;
+       continue;
+   }
+   
+   cout<<x/y<<endl;
+   }
+
+    return 0;
+
+}
+
+Explanation of the code : If user enters y equals to 0
+ then it will redirect the user to again input values 
+
+ So continue is used to skip some part of loop 
+ To avoid invalid values......!
